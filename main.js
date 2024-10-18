@@ -6,7 +6,6 @@ onload = () =>{
     }, 2000);
    
 };
-
 const text = "Rukiye";
 const animatedText = document.getElementById('animatedText');
 let index = 0;
