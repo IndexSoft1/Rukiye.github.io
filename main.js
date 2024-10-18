@@ -7,7 +7,7 @@ onload = () =>{
    
 };
 
-const text = "❤  Rukiye  ❤";
+const text = "Rukiye";
 const animatedText = document.getElementById('animatedText');
 let index = 0;
 
