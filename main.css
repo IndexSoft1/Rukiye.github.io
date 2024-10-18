@@ -10,7 +10,35 @@
   --dark-color: #000;
 }
 
+#animatedText {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+  color: rgba(243, 51, 51, 0.747);
+
+  background-clip: text;
+  -webkit-background-clip: text; /* for Safari */
+  text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  position: absolute; /* Makes the text float */
+  top: 7%; /* Adjust this to position it as needed */
+  left: 50%; /* Centers horizontally */
+  transform: translateX(-50%);
+  z-index: 10; /* Ensure it's above other content */
+  transition: opacity 1s ease-in-out; /* Smooth fade-in effect */
+}
+
+.show {
+  opacity: 1;
+}
+
 body {
+
+
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+.fff {
   display: flex;
   align-items: flex-end;
   justify-content: center;
